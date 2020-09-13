@@ -1,0 +1,17 @@
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "*"
+    
+management:
+   security:
+      enabled: false    
+server:
+  port: 8805    
+  
+#log properties
+logging : 
+ level: 
+  root : INFO
+
+ file: 
+  name: "logs/hystrixdashboard.log"  

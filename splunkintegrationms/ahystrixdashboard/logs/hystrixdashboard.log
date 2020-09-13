@@ -1,0 +1,23 @@
+2020-09-10 18:35:08.053  INFO 420 --- [main] c.h.AhystrixdashboardApplication         : No active profile set, falling back to default profiles: default
+2020-09-10 18:35:09.328  INFO 420 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=47e4087e-b35a-3676-b5ee-7987d6267d92
+2020-09-10 18:35:10.123  INFO 420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8805 (http)
+2020-09-10 18:35:10.138  INFO 420 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-10 18:35:10.138  INFO 420 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-10 18:35:10.156  INFO 420 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-09-10 18:35:10.156  INFO 420 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-09-10 18:35:10.157  INFO 420 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-09-10 18:35:10.160  INFO 420 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-09-10 18:35:10.346  INFO 420 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-10 18:35:10.347  INFO 420 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2245 ms
+2020-09-10 18:35:10.482  WARN 420 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-10 18:35:10.483  INFO 420 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-10 18:35:10.500  INFO 420 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@68217d41
+2020-09-10 18:35:10.766  WARN 420 --- [main] o.s.c.n.a.ArchaiusAutoConfiguration      : No spring.application.name found, defaulting to 'application'
+2020-09-10 18:35:10.767  WARN 420 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-10 18:35:10.768  INFO 420 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-10 18:35:10.967  INFO 420 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-10 18:35:12.999  INFO 420 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2020-09-10 18:35:13.061  INFO 420 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-10 18:35:13.135  INFO 420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8805 (http) with context path ''
+2020-09-10 18:35:14.710  INFO 420 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2020-09-10 18:35:14.744  INFO 420 --- [main] c.h.AhystrixdashboardApplication         : Started AhystrixdashboardApplication in 10.898 seconds (JVM running for 11.42)
